@@ -1,6 +1,6 @@
 rm(list=ls())
 
-n=100; p = 0.01
+n=1000; p = 0.05
 binomialTransfInv = function(n,p){
   u = runif(1,0,1)
   c = p/(1-p)
